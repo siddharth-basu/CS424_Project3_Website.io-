@@ -2,7 +2,7 @@
 Authors: Siddarth Basu, Yang Hao, Natasha Rice, Guillermo Rojas Hernandez
 
 Link to live GitHubPages site:
-* https://guillermokrh.github.io/CS-424---Project-2-Website/
+* ttps://siddharth-basu.github.io/CS424_Project3_Website.io-/
 
 ## Website Created with: Start Bootstrap template
 
