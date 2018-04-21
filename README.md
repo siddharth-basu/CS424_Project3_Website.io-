@@ -1,4 +1,4 @@
-## Main Website for CS 424 Project 2 at UIC
+## Main Website for CS 424 Project 3 at UIC
 Authors: Siddarth Basu, Yang Hao, Natasha Rice, Guillermo Rojas Hernandez
 
 Link to live GitHubPages site:
