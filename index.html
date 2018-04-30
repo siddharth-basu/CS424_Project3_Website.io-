@@ -68,7 +68,7 @@
             <div class="header-content mx-auto">
               <h1 class="mb-5"><strong>Project 3 will be on visualizing data with a strong geographic component, in particular tornadoes in Illinois.</strong></h1>
              <!--< <img src="img/tornadoPic.jpg"  width="550" height="250"> >-->
-              <img src="img/firstTab.png"  width="1000" height="550">
+              <img src="img/alphaVersionPic.png"  width="1000" height="550">
               <p></p>
               <h3><strong><u><a style="color:black" href="http://shiny.evl.uic.edu:3838/p3g9/alpha_release/">View Alpha Release</a></u></strong></h3>
                 <p></p>
@@ -76,6 +76,11 @@
                 <img src="img/firstTab.png"  width="1000" height="550">
                 <p></p>
                 <h3><strong><u><a style="color:red" href="http://shiny.evl.uic.edu:3838/p3g9/alpha_release/">View Final Release</a></u></strong>
+                    
+                    <p></p>
+                    <img src = "img/Youtubelogo-icons.jpg">
+                 <h3><strong><u><a style="color:red" href="http://shiny.evl.uic.edu:3838/p3g9/alpha_release/">Youtube Link</a></u></strong>
+                    
             </div>
 
             <p></p>
@@ -193,10 +198,10 @@
            <p></p>
            <p>Data Manipulation</p>
               <li>The data was cleaned and reduced by python script given by Professor Johnson. This script allowed us to turn CSV files to TSV files, with various lookup codes added.</li>
-              <li></li>
-              <li></li>
+              <li>The attributes that a Tornado is classified with is magnitude, speed, time, length, which leads to some interesting findings </li>
+              <li>The attribute that makes a tornado destructive is classified by fatalities, injuries, cost loss, crop loss, etc. </li>
               
-              
+              <p></p>
                 
                 <p>Libraries Used:</p>
                 
@@ -253,22 +258,68 @@
               <li>The two R files: app.R and howtomakeaRdatafile.R which are taking the data from the .csv file</li>
               <li>A javascript file for animation implementation</li>
               <li>A css file for styling and proper sizing for class projector </li>
+              <li>Tordnados.rds file to store the metadata for a package and to store the database.</li>
               
               <p></p>
               <img src = "img/clickRstudio.png">
               
               <h3>The Main Menu System</h3>
               <img src= "img/mainMenuTab.png" >
+              <p></p>
               
-              <li>About: Has developers information and link to this website</li>
-              <li>Tornado Facts: Has links to c</li>
-              <li>Illinois Tornado Facts</li>
-              <li>Tornado Tracks</li>
-              <li>Time</li>
+              <h3>About: Has developers information and link to this website</h3>
+              <img src = "img/AboutPage.png">
+              <p></p>
+              <h3>Tornado Facts</h3>
+              <img src="img/TornadoFacts.png" width="1100" height="550">
+              <p></p>
+              <h3>Illinois Tornado Facts</h3>
+              <img src ="img/illinoisTornadoFacts.png" width="1100" height="550">
+              <p></p>
+              <h3>Tornado Tracks</h3>
+              <div class="row">
+                
+                  <div class="column">
+                     <img src ="img/RealisticView_3.png" width="300" height="150" >
+                </div>
+                    <div class="column">
+                     <img src ="img/topologicalView_2.png" width="300" height="150" >
+                </div>
+                  
+                  <div class="column">
+                       <img src="img/Tracks_plain.png" width="300" height="150">
+                  </div>
+                  <div class="column">
+                     <img src ="img/NightView.png" width="300" height="150" >
+                </div>
+                   <li>Have a series of view types, from Electric Night View to basic terrain or traditional grid map. Also including choosing a particular year. </li>
+                  
+                  <p></p>
+                  
+             
+                
+              </div>
+              <P></P>
+              
+              <img src ="img/mapGuide.png" >
+             
+              
+              <li>The legend that filters out the parameters of the different attributes from the user's choice. Ability to compare states similutanous.</li>
+              <li>Parameters: Magnitude from 0 to 5, Zero being weakest and 5 being stongest on scale, detructive attributes that are negative outcomes of these tornados: fatalities, injuries, damage cost, and length of tornado movement. </li>
+              <li>Have Geographic control to either by State to State comparison or county breakdown.</li>
+             
+              <p></p>
+              <h3>Time</h3>
               <img src = "img/TimeTab.png">
-              <li>Unit</li>
+              <li>Ability change time from traditional 12 hour clock or Military hours</li>
+              <p></p>
+              <h3>Unit</h3>
               <img src = "img/unitTab.png">
-              <li>Comparison State</li>
+              <li>Ability change Unit of measurement from Imperial or Metric</li>
+              <p></p>
+              <h3>Comparison State</h3>
+              <img src = "img/comparisonTab.png"  width="320" height="110">
+              <li>Ability change current state being compared</li>
               
               
 
@@ -298,16 +349,13 @@
             <h4>Thought#1</h4>
         <li>When looking at the US heatmaps comparing arrivals and departures, the data is consistent on both sides and almost completely similar. We were very confused in this data, but then came to the conclusion that these are regular flyers who are also doing a return trip back to their state. We also took into consideration that people that buy airline tickets, typically also buy a return ticket. It is on very rare occasions, where someone will just buy a one way ticket. </li>   
         <p></p>
-            <img src="img/mapsCompared.png">
+          <img src="img/IL_NY_comparison.png">
+         
         <p>___________________________________________________________________________________________________</p>
             <h4>Thought#2</h4>
         <li>Another interesting data set we discovered was when we are doing a comparison of airline flights in a given month comparing with ORD and Midway. Looking at the airline: Atlantic Southwest Airlines only have flights at Midway half the year. We are baffled as a group where it is very strange that an airline is only active certain periods of the year. </li>
             <p></p>
-            <img src="img/asa_logo.png">
-            <p></p>
-            <img src="img/flights_in_month.png">
-            <p></p>
-            <img src="img/ohare_atlantic.png">
+             <img src="img/il_ms_comparison.png">
         <p></p>
         <li>Further diving into the ASA's revenue in 2017 peaked at 93 million, compared to United Airline which is a giant, their revenue neted around 37 billion. So we came to the conclusion that it is a much smaller airline company, with much less comercial planes than their competitors. However what threw us off further was seeing that ASA has a high volume of flights in O'hare. Also, Airlines like American or United dont even have flights in Midway. This means that ASA is not alone to blame for inconsistent flights in a year at Midway, but also because Midway is a much smaller airport, with less runways, and a combination of ASA's small stature and Midway's size are the main reason for this graph.  </li>
         <p>___________________________________________________________________________________________________</p>
