@@ -67,9 +67,15 @@
         <div class="row h-100">
             <div class="header-content mx-auto">
               <h1 class="mb-5"><strong>Project 3 will be on visualizing data with a strong geographic component, in particular tornadoes in Illinois.</strong></h1>
-              <img src="img/tornadoPic.jpg"  width="550" height="250">
+             <!--< <img src="img/tornadoPic.jpg"  width="550" height="250"> >-->
+              <img src="img/firstTab.png"  width="1000" height="550">
               <p></p>
               <h3><strong><u><a style="color:black" href="http://shiny.evl.uic.edu:3838/p3g9/alpha_release/">View Alpha Release</a></u></strong></h3>
+                <p></p>
+                <p></p>
+                <img src="img/firstTab.png"  width="1000" height="550">
+                <p></p>
+                <h3><strong><u><a style="color:red" href="http://shiny.evl.uic.edu:3838/p3g9/alpha_release/">View Final Release</a></u></strong>
             </div>
 
             <p></p>
@@ -183,6 +189,44 @@
             <h2 class="section-heading">Data</h2>
             <p>The data utilized was chosen by the professor of the course, Dr. Andy Johnson.</p>
             <p>For the application, we created bar charts and pie charts using the ggplot library once the data was processed into R Studio. </p>
+           
+           <p></p>
+           <p>Data Manipulation</p>
+              <li>The data was cleaned and reduced by python script given by Professor Johnson. This script allowed us to turn CSV files to TSV files, with various lookup codes added.</li>
+              <li></li>
+              <li></li>
+              
+              
+                
+                <p>Libraries Used:</p>
+                
+                <li>library(shiny)</li>
+                <li>library(shinydashboard)</li>
+                <li>library(ggplot2)</li>
+                <li>library(lubridate)</li>
+              <li>library(DT)</li>
+              <li>library(jpeg)</li>
+              <li>library(leaflet)</li>
+              <li>library(dplyr)</li>
+              <li>library(plotly)</li>
+              
+
+"allows us to add missing values"
+              <li>library(tidyverse)</li>
+"Allows us to piviot tables if needed"
+              <li>library(reshape)</li>
+"libary that lets us find distances between two LAT, Long"
+              <li>library(geosphere)</li>
+              <li>library(measurements)</li>
+
+              <li>library(RColorBrewer)</li>  
+              <li>library(scales)</li>
+              <li>library(lattice)</li>
+              <li>library(sp)</li>
+              <li>library(leaflet.extras)</li>
+
+                
+             
           
             
             
@@ -202,7 +246,31 @@
         <div class="row">
           <div class="col-md-8 mx-auto">
             <h2 class="section-heading">Insights on How to Use</h2>
-        
+              
+              <p></p>
+              <h3>File Sytem</h3>
+              <img src = "img/listOfFiles.png">
+              <li>The two R files: app.R and howtomakeaRdatafile.R which are taking the data from the .csv file</li>
+              <li>A javascript file for animation implementation</li>
+              <li>A css file for styling and proper sizing for class projector </li>
+              
+              <p></p>
+              <img src = "img/clickRstudio.png">
+              
+              <h3>The Main Menu System</h3>
+              <img src= "img/mainMenuTab.png" >
+              
+              <li>About: Has developers information and link to this website</li>
+              <li>Tornado Facts: Has links to c</li>
+              <li>Illinois Tornado Facts</li>
+              <li>Tornado Tracks</li>
+              <li>Time</li>
+              <img src = "img/TimeTab.png">
+              <li>Unit</li>
+              <img src = "img/unitTab.png">
+              <li>Comparison State</li>
+              
+              
 
          
               
@@ -215,6 +283,37 @@
       <section class="contact bg-primary" id="interestingFeedback">
       <div class="container">
         <h2> Interesting Thoughts:</h2>
+          
+          
+          <p></p>
+          <p></p>
+          
+          <li>are tornadoes more likely in different times of the year?</li>
+          <li>are tornadoes more powerful in different times of the year?</li>
+          <li>are tornadoes more likely at different times of the day or night?</li>
+          <li>tornadoes more powerful in different times of the day or night?</li>
+          <li>have the number of tornadoes changed over the years (keep in mind data reporting and record keeping issues)</li>
+          
+          <li></li>
+            <h4>Thought#1</h4>
+        <li>When looking at the US heatmaps comparing arrivals and departures, the data is consistent on both sides and almost completely similar. We were very confused in this data, but then came to the conclusion that these are regular flyers who are also doing a return trip back to their state. We also took into consideration that people that buy airline tickets, typically also buy a return ticket. It is on very rare occasions, where someone will just buy a one way ticket. </li>   
+        <p></p>
+            <img src="img/mapsCompared.png">
+        <p>___________________________________________________________________________________________________</p>
+            <h4>Thought#2</h4>
+        <li>Another interesting data set we discovered was when we are doing a comparison of airline flights in a given month comparing with ORD and Midway. Looking at the airline: Atlantic Southwest Airlines only have flights at Midway half the year. We are baffled as a group where it is very strange that an airline is only active certain periods of the year. </li>
+            <p></p>
+            <img src="img/asa_logo.png">
+            <p></p>
+            <img src="img/flights_in_month.png">
+            <p></p>
+            <img src="img/ohare_atlantic.png">
+        <p></p>
+        <li>Further diving into the ASA's revenue in 2017 peaked at 93 million, compared to United Airline which is a giant, their revenue neted around 37 billion. So we came to the conclusion that it is a much smaller airline company, with much less comercial planes than their competitors. However what threw us off further was seeing that ASA has a high volume of flights in O'hare. Also, Airlines like American or United dont even have flights in Midway. This means that ASA is not alone to blame for inconsistent flights in a year at Midway, but also because Midway is a much smaller airport, with less runways, and a combination of ASA's small stature and Midway's size are the main reason for this graph.  </li>
+        <p>___________________________________________________________________________________________________</p>
+            
+          
+          
         <ul class="list-inline list-social">
         <p></p>
         <li></li>
