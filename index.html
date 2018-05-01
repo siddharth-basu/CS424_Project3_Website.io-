@@ -75,16 +75,19 @@
                 <p></p>
                 <img src="img/firstTab.png"  width="1000" height="550">
                 <p></p>
-                <h3><strong><u><a style="color:red" href="http://shiny.evl.uic.edu:3838/p3g9/alpha_release/">View Final Release</a></u></strong>
+                <h3><strong><u><a style="color:red" href="http://shiny.evl.uic.edu:3838/p3g9/submission/">View Final Release</a></u></strong>
                     <p></p>
                     <img src="img/Octocat.png" width="200" height="200">
                 <p></p>
-                <h3><strong><u><a style="color:red" href="http://github.com">Github Repository</a></u></strong>
+                <h3><strong><u><a style="color:red" href="https://github.com/NatashaRice2018/CS-424-Project-3">Github Repository (Project Files)</a></u></strong>
                     
+                 <h3><strong><u><a style="color:red" href="https://github.com/siddharth-basu/CS424_Project3_Website.io-">Github Repository (Website)</a></u></strong>
+                    
+                       
                     
                     <p></p>
                     <img src = "img/Youtubelogo-icons.jpg">
-                 <h3><strong><u><a style="color:red" href="http://shiny.evl.uic.edu:3838/p3g9/alpha_release/">Youtube Link</a></u></strong>
+                 <h3><strong><u><a style="color:red" href="https://youtu.be/G9hIyi2ITJc">Youtube Link</a></u></strong>
                     
             </div>
 
@@ -186,32 +189,6 @@
               <p></p>
               <p></p>
               
-                       <h4><strong>Final Summary: April 30, 2018</strong></h4>
-            <p>Guillermo Rojas Hernandez progress: </p>
-              <li>Created initial UI design for the Alpha Release</li>
-              <li>Looked at sample shiny apps for ideas on how to structure the UI design and created new sketches for the final release.</li>
-              <li>Looked at different shiny mapping libraries to try to find the best libraries for Leaflet.</li>
-            <p></p>
-            <p>Yang Hao progress:  
-                <li>Add new features to data</li>
-                <li>Switch categorical data of loss to numerical values</li>
-                <li>Organize the loss data for different years</li>
-                <li>Updated loss value to tables and charts</li>
-             </p>
-            <p>Natasha Rice progress: </p>
-              <li>Converted Map into a new format</li>
-              <li>Allowed filtering by magnitudes</li>
-              <li>Allowed filtering color/width by several parameters </li>
-              <li>Began looking into color options for the map</li>
-
-            <p></p>
-              
-            <p>Siddharth Basu progress: </p>    
-              <li>Working on destructive parameters for section B</li>
-              <li>Managed project website and weekly progresses</li>
-              <li>Experimenting with new library uses and implementations</li>
-              <li>Sorting through the data for inconsistences and interesting findings</li>
-            
             
           </div>
         </div>
@@ -231,10 +208,10 @@
            
            <p></p>
            <p>Data Manipulation</p>
-              <li>The data was cleaned and reduced by python script given by Professor Johnson. This script allowed us to turn CSV files to TSV files, with various lookup codes added.</li>
+              <li>The data was cleaned and reduced to csv, xml, and rds files given by Professor Johnson. </li>
               <li>The attributes that a Tornado is classified with is magnitude, speed, time, length, which leads to some interesting findings </li>
               <li>The attribute that makes a tornado destructive is classified by fatalities, injuries, cost loss, crop loss, etc. </li>
-              <li>The library we used for our animation is SliderInput Widget library</li>
+              <li>The library we used for our animation is SliderInput Widget library for over years of number of tornados by count.</li>
               
               <p></p>
                 
@@ -251,11 +228,11 @@
               <li>library(plotly)</li>
               
 
-"allows us to add missing values"
+
               <li>library(tidyverse)</li>
-"Allows us to piviot tables if needed"
+
               <li>library(reshape)</li>
-"libary that lets us find distances between two LAT, Long"
+
               <li>library(geosphere)</li>
               <li>library(measurements)</li>
 
@@ -273,7 +250,7 @@
           </div>
         </div>
 
-    <p>___________________________________________________________________________________________________________________</p>
+
         <br>
 
       </div>
@@ -297,6 +274,7 @@
               
               <p></p>
               <img src = "img/clickRstudio.png">
+              <p></p>
               
               <h3>The Main Menu System</h3>
               <img src= "img/mainMenuTab.png" >
@@ -317,6 +295,10 @@
               <p></p>
               <h3>Illinois Tornado Facts</h3>
               <img src ="img/illinoisTornadoFacts.png" width="1100" height="550">
+              <li>Illinois counties </li>
+              <li>Most Powerful Places during a tornado: Heatmap of high magnitude tornados</li>
+              <li>Top 10 most powerful tornados</li>
+              <li>Tornados by Distance from Chicago</li>
               <p></p>
               <h3>Tornado Tracks</h3>
               <div class="row">
@@ -389,36 +371,80 @@
           
           <p></p>
           <p></p>
+       
           
-          <li>are tornadoes more likely in different times of the year?</li>
-          <li>are tornadoes more powerful in different times of the year?</li>
-          <li>are tornadoes more likely at different times of the day or night?</li>
-          <li>tornadoes more powerful in different times of the day or night?</li>
-          <li>have the number of tornadoes changed over the years (keep in mind data reporting and record keeping issues)</li>
+          <p></p>
+          <p></p>
           
-          <li></li>
+                 
+          
+          <p></p>
             <h4>Thought#1</h4>
-        <li>When looking at the US heatmaps comparing arrivals and departures, the data is consistent on both sides and almost completely similar. We were very confused in this data, but then came to the conclusion that these are regular flyers who are also doing a return trip back to their state. We also took into consideration that people that buy airline tickets, typically also buy a return ticket. It is on very rare occasions, where someone will just buy a one way ticket. </li>   
+        <li>This visualization module shows the tornados by the distance and the count of tornados with their individual magnitude classified</li>
+        <li>This could help users connect back to the counties surrounding Chicago and relate back. </li>
         <p></p>
-          <img src="img/IL_NY_comparison.png">
+          <img src="img/tornados_from_chicago.png">
          
-        <p>___________________________________________________________________________________________________</p>
+          <p></p>
+          <p></p>
+      
             <h4>Thought#2</h4>
-        <li>Another interesting data set we discovered was when we are doing a comparison of airline flights in a given month comparing with ORD and Midway. Looking at the airline: Atlantic Southwest Airlines only have flights at Midway half the year. We are baffled as a group where it is very strange that an airline is only active certain periods of the year. </li>
+          <li>Another interesting data table we created is the most hit counties in Illinois</li>
+          <li>Using the xml files to get usps codes and county names to return a count of tornados.</li>
             <p></p>
-             <img src="img/il_ms_comparison.png">
+             <img src="img/counties_illinois_hit.png">
         <p></p>
-        <li>Further diving into the ASA's revenue in 2017 peaked at 93 million, compared to United Airline which is a giant, their revenue neted around 37 billion. So we came to the conclusion that it is a much smaller airline company, with much less comercial planes than their competitors. However what threw us off further was seeing that ASA has a high volume of flights in O'hare. Also, Airlines like American or United dont even have flights in Midway. This means that ASA is not alone to blame for inconsistent flights in a year at Midway, but also because Midway is a much smaller airport, with less runways, and a combination of ASA's small stature and Midway's size are the main reason for this graph.  </li>
-        <p>___________________________________________________________________________________________________</p>
+        <li>This gives the user perspective of the counties they will live in. So for our local counties like Will and Cook county are among the top 10 most hit counties.</li>
+          <li>Chicago for example is in Cook county and they are ranked 10th which shows that this metropolitan area are less effected by open areas like Will county which are suburbs with more farm lands and less high scaled structures.</li>
+        
             
           <p></p>
             <h4>Thought#3</h4>
-        <li>Another interesting data set we discovered was when we are doing a comparison of airline flights in a given month comparing with ORD and Midway. Looking at the airline: Atlantic Southwest Airlines only have flights at Midway half the year. We are baffled as a group where it is very strange that an airline is only active certain periods of the year. </li>
+        <li>The heatmap below is a heatmap of the magnitutes of tornados in each given month  </li>
             <p></p>
-             <img src="img/il_ms_comparison.png">
+             <img src="img/sept_heatmap.png">
+          <img src="img/jan_heatmap.png">
+          <img src="img/may_heatmap.png">
         <p></p>
-        <li>Further diving into the ASA's revenue in 2017 peaked at 93 million, compared to United Airline which is a giant, their revenue neted around 37 billion. So we came to the conclusion that it is a much smaller airline company, with much less comercial planes than their competitors. However what threw us off further was seeing that ASA has a high volume of flights in O'hare. Also, Airlines like American or United dont even have flights in Midway. This means that ASA is not alone to blame for inconsistent flights in a year at Midway, but also because Midway is a much smaller airport, with less runways, and a combination of ASA's small stature and Midway's size are the main reason for this graph.  </li>
-        <p>___________________________________________________________________________________________________</p>
+        <li>The heatmaps above of monthly tornado power is broken into three periods 3 months apart starting at September, January, and May. </li>
+        <li>The transition from low level tornado magnitudes to high magnitudes in January adn back down to low level magnitudes in May</li>
+        <li>This level of transition is shows that the winter season has higher level magnitudes and is a critical time to be aware.</li>
+       
+          <p></p>
+          <h4>Thought#4</h4>
+    
+          <div class="row">
+                
+                <div class="column">
+                    
+                </div>
+               <div class="column">
+                    
+                </div>
+              
+                  <div class="column">
+                      <img src="img/1974_IL_IN.png" width ="200" height="200">
+                </div>
+                    <div class="column">
+                     <img src="img/1976_IL_IN.png" width ="200" height="200" >
+                </div>
+                  
+                  <div class="column">
+                       <img src="img/1990_IL_IN.png" width ="200" height="200">
+                  </div>
+                 
+                </div>
+          
+            <li>The map above contains three dates: 1974, 1976, and 1990. The anglulation and data spread between the states Illinois and Indiana to show distance and tornado patterns between our local states. </li>   
+        <p></p>
+          
+          <p></p>
+          
+        
+                     <img src ="img/2003_IL_IN.png">
+          <li>The tornado paths for 2003 are shown in the states: Illinois and Indiana. As you can see that Indiana patterns are minimum so no activity is happening from the Eastern states. So the weather patterns must be effected from the western and southern states assuming.</li>
+                
+         
             
           
         <ul class="list-inline list-social">
